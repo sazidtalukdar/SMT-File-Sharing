@@ -9,16 +9,20 @@
 </head>
 <body>
     <h1>SMT File Sharing</h1>
-   <input type="file" id="fileInput" multiple/>
+    <input type="file" id="fileInput"/>
     <button id="submitButton">Submit</button>
     
     <div id="progressBar">
         <div id="progress"></div>
     </div>
+    
+    <a href=".apk" download>
+        <button id="downloadButton">Try our Android App</button>
+    </a>
+
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js"></script>
     <script src="index.js"></script>
-
 </body>
 </html>
