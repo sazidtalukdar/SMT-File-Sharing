@@ -32,12 +32,11 @@ button {
 }
 
 button:hover {
-    background-color: #4caf50;
+    background-color: #45a049;
 }
 
 a {
     margin-top: 20px;
-    color: #3498db;
     text-decoration: none;
 }
 
